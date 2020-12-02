@@ -10,6 +10,8 @@ public class Main {
         long l = 333333333L;
         float f = 1654.0f;
         double d1 = 78.99;
+	boolean bool = true;
+	char ch = 's';
 
         // 3
         System.out.println("3) " + calcNumbers(1,2,6,3));
