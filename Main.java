@@ -12,6 +12,7 @@ public class Main {
         double d1 = 78.99;
 	boolean bool = true;
 	char ch = 's';
+	String str = "java";
 
         // 3
         System.out.println("3) " + calcNumbers(1,2,6,3));
