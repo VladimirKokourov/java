@@ -1,0 +1,18 @@
+package geekbrains.homework.lesson5;
+
+public class TestDrivePerson {
+    public static void main(String[] args) {
+        Person[] persArray = new Person[5]; // Вначале объявляем массив объектов
+        persArray[0] = new Person("Kalich Valeriy", "Cleaner", null, "89238513246", 8000, 59);
+        persArray[1] = new Person("Dubina Maksim", "Department head", "csmaster@mail.ru", "89834527814", 80000, 25);
+        persArray[2] = new Person("Metodin Denis", "Programmer", "metoden88@gmail.com", "89137555557", 45000, 32);
+        persArray[3] = new Person("Klassevich Igor", "Programmer", "classclassclass@bk.ru", "89238997312", 50000, 27);
+        persArray[4] = new Person("Maynamov Rubert", "Director", "maynamov_rubert@mailbox.com", "89232323232", 200000, 51);
+
+        for (int i = 0; i < persArray.length; i++) {
+            if (persArray[i].age >= 40) {
+                persArray[i].info();
+            }
+        }
+    }
+}
